@@ -23,4 +23,16 @@ public class Fox implements Animal {
     public int getPersonalSpace() {
         return 65;
     }
+
+    public void tryToFly(){
+        throw new CantFlyException("I can't fly, dude!");
+    }
+
+    private class CantFlyException extends RuntimeException{
+        public CantFlyException(){};
+        public CantFlyException(String s){
+            super(s);
+        }
+
+    }
 }
