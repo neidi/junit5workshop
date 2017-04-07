@@ -12,31 +12,12 @@ import org.junit.runner.RunWith;
  * Created by simonneidhart on 03.04.2017.
  */
 @RunWith(JUnitPlatform.class)
-@ExtendWith({MockitoExtension.class})
 class OstrichTest implements PersonalSpaceContract {
-    Ostrich ostrich;
-    @BeforeEach
-    void SetUp(){
-        this.ostrich = new Ostrich();
-    }
 
-    @Test
-    void hasClaws() {
-
-    }
-
-    @Test
-    void makeNoise() {
-
-    }
-
-    @Test
-    void getOrigin() {
-
-    }
+    Ostrich ostrich = new Ostrich();
 
     @Override
     public int getPersonalSpaceOfAnimal() {
-        return this.ostrich.getPersonalSpace();
+        return ostrich.getPersonalSpace();
     }
 }

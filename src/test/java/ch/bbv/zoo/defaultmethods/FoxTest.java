@@ -22,17 +22,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @ExtendWith({MockitoExtension.class})
 class FoxTest implements PersonalSpaceContract {
 
-    Fox fox;
-
-    @BeforeEach
-    void SetUp(){
-        fox = new Fox();
-    }
-
-    @Test
-    void getOrigin() {
-
-    }
+    Fox fox = new Fox();
 
     @Override
     public int getPersonalSpaceOfAnimal() {

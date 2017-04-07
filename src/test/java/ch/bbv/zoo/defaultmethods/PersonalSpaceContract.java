@@ -17,7 +17,6 @@ public interface PersonalSpaceContract {
 
     @Test
     default void personalSpaceShouldBeBetween50And150SquareMeters(){
-
         int personalSpace = getPersonalSpaceOfAnimal();
         assertAll("Personal Space",
                 () -> assertTrue(personalSpace >= minLength, "you're an animal tormentor"),
