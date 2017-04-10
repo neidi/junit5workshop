@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.DynamicTest.*;
 
 import extensions.AllExtensions;
 import extensions.MockitoExtension;
+import org.junit.Assert;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.*;
 import org.junit.platform.runner.JUnitPlatform;
@@ -16,6 +17,7 @@ import org.junit.runner.RunWith;
 @RunWith(JUnitPlatform.class)
 public class ExtensionTest {
 
+<<<<<<< HEAD
     @BeforeAll
     static void setBefore() {
         System.out.println("BeforeALL  CLASS      <------");
@@ -49,6 +51,11 @@ public class ExtensionTest {
     void einAndererTest(TestInfo testInfo) {
         System.out.println("IN TEST 2");
         Assertions.assertTrue(testInfo.getTestClass().toString().contains("Extension"), "The class name should contain 'Extension'");
+=======
+    @Test
+    void random(){
+        Assert.assertTrue(true);
+>>>>>>> feature/Roman
     }
 
 }

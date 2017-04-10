@@ -1,5 +1,7 @@
 package ch.bbv.zoo;
 
+import ch.bbv.zoo.Assert.utility.OverheatException;
+
 import java.util.Locale;
 
 /**
@@ -24,8 +26,11 @@ public class Fox implements Animal {
         return 65;
     }
 
+<<<<<<< HEAD
     @Override
     public String toString() {
         return "Fox";
     }
+=======
+>>>>>>> feature/Roman
 }

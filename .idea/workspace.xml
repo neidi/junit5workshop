@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc6a765-a866-4fc9-b367-0424876cac59" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/bbv/calculator/Calculator.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/parameterized/Fibonacci.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/parameterized/ParameterizedTests.java" />
@@ -22,6 +23,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Fox.java" afterPath="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Fox.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Lion.java" afterPath="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Lion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Ostrich.java" afterPath="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Ostrich.java" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Assert/utility/OverheatException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/Assert/MachineImplTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/asserts/AssertsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch/bbv/zoo/Fox$CantFlyException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ch/bbv/zoo/asserts/AssertsTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ch/bbv/zoo/Fox.class" afterPath="$PROJECT_DIR$/target/classes/ch/bbv/zoo/Fox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ch/bbv/zoo/extension/ExtensionTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ch/bbv/zoo/extension/ExtensionTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Fox.java" afterPath="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Fox.java" />
+>>>>>>> feature/Roman
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/extension/ExtensionTest.java" afterPath="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/extension/ExtensionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,6 +51,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="DynamicTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/dynamic/DynamicTests.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,20 +78,37 @@
                 <element signature="e#3136#3137#0" expanded="true" />
                 <element signature="e#3200#3201#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="Fox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Fox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+>>>>>>> feature/Roman
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/parameterized/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+=======
+      <file leaf-file-name="FoxTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/FoxTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+>>>>>>> feature/Roman
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="ExtensionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/extension/ExtensionTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,10 +124,19 @@
                 <element signature="e#836#837#0" expanded="true" />
                 <element signature="e#903#904#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="Machine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Assert/Machine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding />
+>>>>>>> feature/Roman
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Ostrich.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Ostrich.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,10 +146,19 @@
                 <element signature="e#497#498#0" expanded="true" />
                 <element signature="e#529#530#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="OverheatException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Assert/utility/OverheatException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding />
+>>>>>>> feature/Roman
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Fox.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Fox.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,11 +167,24 @@
               <folding>
                 <element signature="e#498#499#0" expanded="true" />
                 <element signature="e#526#527#0" expanded="true" />
+=======
+      <file leaf-file-name="MachineImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Assert/MachineImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+>>>>>>> feature/Roman
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Lion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Lion.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,6 +193,16 @@
               <folding>
                 <element signature="e#491#492#0" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
+=======
+      <file leaf-file-name="ExtensionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/extension/ExtensionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding>
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+>>>>>>> feature/Roman
               </folding>
             </state>
           </provider>
@@ -140,13 +211,19 @@
       <file leaf-file-name="AllExtensions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/extensions/AllExtensions.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="493">
               <caret line="39" column="1" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="39" selection-end-column="1" />
+=======
+            <state relative-caret-position="560">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+>>>>>>> feature/Roman
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/calculator/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -156,16 +233,37 @@
                 <element signature="e#153#154#0" expanded="true" />
                 <element signature="e#195#196#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Animal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding />
+>>>>>>> feature/Roman
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding />
+=======
+      <file leaf-file-name="MachineImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/Assert/MachineImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+              </folding>
+>>>>>>> feature/Roman
             </state>
           </provider>
         </entry>
@@ -176,8 +274,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -198,7 +296,14 @@
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/PersonalSpaceContract.java" />
         <option value="$PROJECT_DIR$/src/test/java/extensions/AllExtensions.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/OstrichTest.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/asserts/AssertsTest.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Lion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Ostrich.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/nested/NestedTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/dynamic/DynamicTest.java" />
+>>>>>>> feature/Roman
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/assumptions/AssumptionsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/FoxTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/LionTest.java" />
@@ -208,6 +313,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/OstrichTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/LionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/FoxTest.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/PersonalSpaceContract.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/dynamic/DynamicTests.java" />
@@ -222,7 +328,24 @@
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/parameterized/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/parameterized/ParameterizedTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/extension/ExtensionTest.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/utility/CantFlyException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/asserts/AssertsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/extension/ExtensionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Assert/utility/CantFlyException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Fox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Assert/MachineImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Assert/Machine.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/bbv/zoo/Assert/MachineImplTest.java" />
+>>>>>>> feature/Roman
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -262,6 +385,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+>>>>>>> feature/Roman
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,11 +449,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+              <option name="myItemId" value="extensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit5Workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit5Workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zoo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit5Workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit5Workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+>>>>>>> feature/Roman
               <option name="myItemId" value="zoo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="parameterized" />
+=======
+              <option name="myItemId" value="extension" />
+>>>>>>> feature/Roman
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,6 +539,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zoo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assert" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -508,11 +698,19 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="JUnitWorkshop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JUnitWorkshop" />
+=======
+              <option name="myItemId" value="JUnit5Workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit5Workshop" />
+>>>>>>> feature/Roman
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -528,44 +726,101 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="bbv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="calculator" />
+=======
+              <option name="myItemId" value="zoo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit5Workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit5Workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zoo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+>>>>>>> feature/Roman
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+>>>>>>> feature/Roman
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+=======
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+>>>>>>> feature/Roman
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ch/bbv" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ch.bbv.zoo.Assert" />
       <recent name="ch.bbv.zoo" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dariosagud\Documents\Junit5\junit5examples\src\test\java\ch\bbv\zoo\defaultmethods" />
-      <recent name="C:\Users\dariosagud\Documents\Junit5\junit5examples\src\test\java\extensions" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ch.bbv.zoo.Assert" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch.bbv.zoo.parameterized" />
       <recent name="ch.bbv.zoo" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dariosagud\Documents\Junit5\junit5examples\src\test\java\ch\bbv\zoo\defaultmethods" />
+      <recent name="C:\Users\dariosagud\Documents\Junit5\junit5examples\src\test\java\extensions" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+<<<<<<< HEAD
       <recent name="ch.bbv.zoo.parameterized" />
+=======
+      <recent name="ch.bbv.zoo.Assert" />
+>>>>>>> feature/Roman
       <recent name="ch.bbv.zoo" />
     </key>
   </component>
@@ -581,6 +836,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.All in junit5examples">
     <configuration default="false" name="ParameterizedTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -638,16 +894,103 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ch.bbv.zoo.parameterized.*" />
+=======
+  <component name="RunManager" selected="JUnit.MachineImplTest">
+    <configuration default="false" name="AssertsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch.bbv.zoo.asserts.*" />
+>>>>>>> feature/Roman
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="junit5examples" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="ch.bbv.zoo.parameterized" />
       <option name="MAIN_CLASS_NAME" value="ch.bbv.zoo.parameterized.FibonacciTest" />
+=======
+      <option name="PACKAGE_NAME" value="ch.bbv.zoo.asserts" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbv.zoo.asserts.AssertsTest" />
+>>>>>>> feature/Roman
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+<<<<<<< HEAD
+    <configuration default="false" name="ExtensionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch.bbv.zoo.extension.*" />
+=======
+    <configuration default="false" name="AssertsTest.WhenFoxTriesToFly_ThenThrowCantFlyException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch.bbv.zoo.asserts.*" />
+>>>>>>> feature/Roman
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="junit5examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="ch.bbv.zoo.extension" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbv.zoo.extension.ExtensionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+=======
+      <option name="PACKAGE_NAME" value="ch.bbv.zoo.asserts" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbv.zoo.asserts.AssertsTest" />
+      <option name="METHOD_NAME" value="WhenFoxTriesToFly_ThenThrowCantFlyException" />
+      <option name="TEST_OBJECT" value="method" />
+>>>>>>> feature/Roman
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+<<<<<<< HEAD
+    <configuration default="false" name="All in junit5examples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="junit5examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+=======
+    <configuration default="false" name="AssertsTest.WhenAnimalsMakeNoise_ThenAllReturnCorrectSound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch.bbv.zoo.asserts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="junit5examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.bbv.zoo.asserts" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbv.zoo.asserts.AssertsTest" />
+      <option name="METHOD_NAME" value="WhenAnimalsMakeNoise_ThenAllReturnCorrectSound" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -672,6 +1015,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ch.bbv.zoo.extension" />
       <option name="MAIN_CLASS_NAME" value="ch.bbv.zoo.extension.ExtensionTest" />
+>>>>>>> feature/Roman
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -686,15 +1030,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="All in junit5examples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="false" name="MachineImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch.bbv.zoo.Assert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="junit5examples" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="ch.bbv.zoo.Assert" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbv.zoo.Assert.MachineImplTest" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -912,6 +1261,7 @@
       <method />
     </configuration>
     <list size="5">
+<<<<<<< HEAD
       <item index="0" class="java.lang.String" itemvalue="JUnit.ParameterizedTests" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.ParameterizedTests.animalsShouldHaveTheirOwnWhateversChöbel" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
@@ -925,6 +1275,21 @@
         <item index="2" class="java.lang.String" itemvalue="JUnit.ParameterizedTests" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ParameterizedTests.animalsShouldHaveTheirOwnWhateversChöbel" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AssertsTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AssertsTest.WhenFoxTriesToFly_ThenThrowCantFlyException" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AssertsTest.WhenAnimalsMakeNoise_ThenAllReturnCorrectSound" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExtensionTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MachineImplTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MachineImplTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExtensionTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AssertsTest.WhenFoxTriesToFly_ThenThrowCantFlyException" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AssertsTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AssertsTest.WhenAnimalsMakeNoise_ThenAllReturnCorrectSound" />
+>>>>>>> feature/Roman
       </list>
     </recent_temporary>
   </component>
@@ -945,6 +1310,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="All_in_junit5examples - 2017.04.10 at 13h 43m 17s.xml">
       <configuration name="All in junit5examples" configurationId="JUnit" />
     </history-entry>
@@ -974,34 +1340,81 @@
     </history-entry>
     <history-entry file="ParameterizedTests - 2017.04.10 at 13h 30m 39s.xml">
       <configuration name="ParameterizedTests" configurationId="JUnit" />
+=======
+    <history-entry file="AssertsTest_WhenAnimalsMakeNoise_ThenAllReturnCorrectSound - 2017.04.09 at 19h 05m 20s.xml">
+      <configuration name="AssertsTest.WhenAnimalsMakeNoise_ThenAllReturnCorrectSound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertsTest_WhenAnimalsMakeNoise_ThenAllReturnCorrectSound - 2017.04.09 at 19h 05m 27s.xml">
+      <configuration name="AssertsTest.WhenAnimalsMakeNoise_ThenAllReturnCorrectSound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertsTest_WhenFoxTriesToFly_ThenThrowCantFlyException - 2017.04.10 at 11h 33m 32s.xml">
+      <configuration name="AssertsTest.WhenFoxTriesToFly_ThenThrowCantFlyException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertsTest_WhenTimeoutMethodIsCalles_ThemMaximumWaitingTimeAre4Seconds_JUnit4 - 2017.04.07 at 11h 23m 25s.xml">
+      <configuration name="AssertsTest.WhenTimeoutMethodIsCalles_ThemMaximumWaitingTimeAre4Seconds_JUnit4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExtensionTest - 2017.04.10 at 11h 39m 56s.xml">
+      <configuration name="ExtensionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExtensionTest - 2017.04.10 at 11h 40m 07s.xml">
+      <configuration name="ExtensionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExtensionTest - 2017.04.10 at 11h 41m 33s.xml">
+      <configuration name="ExtensionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineImplTest - 2017.04.10 at 13h 35m 57s.xml">
+      <configuration name="MachineImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineImplTest - 2017.04.10 at 13h 39m 59s.xml">
+      <configuration name="MachineImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineImplTest - 2017.04.10 at 13h 40m 19s.xml">
+      <configuration name="MachineImplTest" configurationId="JUnit" />
+>>>>>>> feature/Roman
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+<<<<<<< HEAD
+=======
+    <editor active="true" />
+>>>>>>> feature/Roman
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298272" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> feature/Roman
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2909699" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> feature/Roman
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21614583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3219616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> feature/Roman
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39924315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1023,13 +1436,35 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/FoxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/LionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> feature/Roman
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/OstrichTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#586#587#0" expanded="false" />
           </folding>
+=======
+          <folding />
+>>>>>>> feature/Roman
         </state>
       </provider>
     </entry>
@@ -1048,9 +1483,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+=======
+>>>>>>> feature/Roman
         </state>
       </provider>
     </entry>
@@ -1066,7 +1504,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> feature/Roman
         </state>
       </provider>
     </entry>
@@ -1074,9 +1515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,6 +1522,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="35" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#786#787#0" expanded="false" />
@@ -1093,6 +1532,9 @@
             <element signature="e#2619#2620#0" expanded="false" />
             <element signature="e#2665#2666#0" expanded="false" />
           </folding>
+=======
+          <folding />
+>>>>>>> feature/Roman
         </state>
       </provider>
     </entry>
@@ -1120,7 +1562,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/FoxTest.java" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/FoxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> feature/Roman
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Ostrich.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1151,7 +1604,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/FoxTest.java" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/FoxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> feature/Roman
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Ostrich.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1179,6 +1643,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Labrador.java" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/OstrichTest.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Locale.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/FoxTest.java" />
@@ -1192,6 +1657,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/TimingExtension.java">
+>>>>>>> feature/Roman
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="173" column="74" lean-forward="true" selection-start-line="173" selection-start-column="74" selection-end-line="173" selection-end-column="74" />
@@ -1218,6 +1686,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/LionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1227,6 +1696,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/OstrichTest.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/LionTest.java">
+>>>>>>> feature/Roman
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
@@ -1246,14 +1718,66 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/extension/TimingExtensionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/PersonalSpaceContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/dynamic/DynamicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/assumptions/AssumptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/LionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/OstrichTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/defaultmethods/FoxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Ostrich.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+>>>>>>> feature/Roman
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/nested/NestedTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1274,26 +1798,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/nested/NestedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+>>>>>>> feature/Roman
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/extensions/MockitoExtension.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Lion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+>>>>>>> feature/Roman
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/extensions/Mock.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="119">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="22" />
+=======
+        <state relative-caret-position="340">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+>>>>>>> feature/Roman
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/extensions/TimingExtension.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1319,10 +1870,28 @@
           <folding>
             <element signature="e#153#154#0" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/extension/ExtensionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+>>>>>>> feature/Roman
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Fox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1384,20 +1953,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/src/test/java/extensions/AllExtensions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="560">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Fox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Assert/utility/OverheatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Assert/Machine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbv/zoo/Assert/MachineImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+>>>>>>> feature/Roman
+          <folding>
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/AllExtensions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="39" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/asserts/AssertsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="50" selection-end-column="5" />
+>>>>>>> feature/Roman
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/extension/ExtensionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1411,6 +2029,16 @@
             <element signature="e#796#797#0" expanded="true" />
             <element signature="e#836#837#0" expanded="true" />
             <element signature="e#903#904#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbv/zoo/Assert/MachineImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+>>>>>>> feature/Roman
           </folding>
         </state>
       </provider>
