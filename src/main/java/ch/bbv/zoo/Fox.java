@@ -26,11 +26,8 @@ public class Fox implements Animal {
         return 65;
     }
 
-<<<<<<< HEAD
     @Override
     public String toString() {
         return "Fox";
     }
-=======
->>>>>>> feature/Roman
 }
