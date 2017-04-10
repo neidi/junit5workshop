@@ -23,4 +23,9 @@ public class Ostrich implements Animal {
     public int getPersonalSpace() {
         return 100;
     }
+
+    @Override
+    public String toString() {
+        return "Ostrich";
+    }
 }

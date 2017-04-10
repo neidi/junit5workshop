@@ -9,9 +9,9 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <jupiter.version>5.0.0-M3</jupiter.version>
-        <vintage.version>4.12.0-M3</vintage.version>
-        <platform.version>1.0.0-M3</platform.version>
+        <jupiter.version>5.0.0-M4</jupiter.version>
+        <vintage.version>4.12.0-M4</vintage.version>
+        <platform.version>1.0.0-M4</platform.version>
     </properties>
 
     <dependencies>
@@ -27,6 +27,12 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
+            <version>${jupiter.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
             <version>${jupiter.version}</version>
         </dependency>
 

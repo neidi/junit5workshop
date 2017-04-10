@@ -23,4 +23,9 @@ public class Fox implements Animal {
     public int getPersonalSpace() {
         return 65;
     }
+
+    @Override
+    public String toString() {
+        return "Fox";
+    }
 }

@@ -13,10 +13,9 @@ import org.junit.runner.RunWith;
 /**
  * Created by dariosagud on 06.04.2017.
  */
-@ExtendWith(AllExtensions.class)
 @RunWith(JUnitPlatform.class)
 public class ExtensionTest {
-    /*
+
     @BeforeAll
     static void setBefore() {
         System.out.println("BeforeALL  CLASS      <------");
@@ -35,7 +34,7 @@ public class ExtensionTest {
     @AfterEach
     void setUpAfter() {
         System.out.println("AfterEach  CLASS      <------");
-    }*/
+    }
 
     @DisplayName("Test 1")
     @Test
