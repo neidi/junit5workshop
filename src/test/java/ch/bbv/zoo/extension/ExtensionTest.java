@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.DynamicTest.*;
 
 import extensions.AllExtensions;
 import extensions.MockitoExtension;
+import org.junit.Assert;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.*;
 import org.junit.platform.runner.JUnitPlatform;
@@ -16,4 +17,10 @@ import org.junit.runner.RunWith;
 @ExtendWith(AllExtensions.class)
 @RunWith(JUnitPlatform.class)
 public class ExtensionTest {
+
+    @Test
+    void random(){
+        Assert.assertTrue(true);
+    }
+
 }

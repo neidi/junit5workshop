@@ -1,5 +1,7 @@
 package ch.bbv.zoo;
 
+import ch.bbv.zoo.Assert.utility.OverheatException;
+
 import java.util.Locale;
 
 /**
@@ -24,15 +26,4 @@ public class Fox implements Animal {
         return 65;
     }
 
-    public void tryToFly(){
-        throw new CantFlyException("I can't fly, dude!");
-    }
-
-    private class CantFlyException extends RuntimeException{
-        public CantFlyException(){};
-        public CantFlyException(String s){
-            super(s);
-        }
-
-    }
 }
