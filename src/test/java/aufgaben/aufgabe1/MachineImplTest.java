@@ -24,28 +24,18 @@ class MachineImplTest {
 
     @Test
     void whenMachineHasBeenInitialized_ThenShouldBeOnReadyAndInitialized(){
-        testee.initialize();
-        assertAll(
-                () -> assertTrue(testee.isOn()),
-                () -> assertTrue(testee.isReady()),
-                () -> assertTrue(testee.hasInitialized()));
     }
 
     @Test
     void whenMachineGoesFullPower_ThenThrowOverHeatException(){
-        Assertions.assertThrows(OverheatException.class, () -> testee.goFullPower());
     }
 
     @Test
     void whenMachineWaits_ThenMethodDoesNotTakeLongerThanExpected(){
-        Assertions.assertTimeout(Duration.ofSeconds(3), () -> testee.transportMachine(2));
     }
 
     @Test
     void onlyWhenMachineIsOn_ThenMachineCanBeReady(){
-        testee.initialize();
-        Assumptions.assumeTrue(testee.isOn());
-        Assertions.assertTrue(testee.isReady());
     }
 
 

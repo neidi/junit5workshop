@@ -19,13 +19,10 @@ import java.util.Locale;
  */
 @DisplayName("When the animal")
 @RunWith(JUnitPlatform.class)
-@ExtendWith(MockitoExtension.class)
 public class NestedTest {
 
     public Animal animal;
 
-    @Nested
-    @DisplayName("is a fox")
     class NestedFox {
 
         @BeforeEach
@@ -33,14 +30,12 @@ public class NestedTest {
             animal = new Fox();
         }
 
-        @DisplayName("has no claws")
         @Test
         void hasClaws() {
             // assert
             assertFalse(animal.hasClaws(), "The fox does not have claws.");
         }
 
-        @DisplayName("makes right noise")
         @Test
         void makeNoise() {
             // assert
@@ -52,7 +47,6 @@ public class NestedTest {
             );
         }
 
-        @DisplayName("has canadas origin")
         @Test
         void getOrigin() {
             // assert
@@ -61,8 +55,6 @@ public class NestedTest {
 
     }
 
-    @Nested
-    @DisplayName("is a lion")
     class NestedLion {
 
         @BeforeEach
@@ -70,14 +62,11 @@ public class NestedTest {
             animal = new Lion();
         }
 
-        @DisplayName("has claws")
-        @Test
         void hasClaws() {
             // assert
             assertTrue(animal.hasClaws(), "The lion does have claws.");
         }
 
-        @DisplayName("makes right noise")
         @Test
         void makeNoise() {
             // assert
@@ -85,7 +74,6 @@ public class NestedTest {
             assertTrue(actual.contains("roar"), "should contain roar");
         }
 
-        @DisplayName("has africas origin")
         @Test
         void getOrigin() {
             // assert
@@ -94,8 +82,6 @@ public class NestedTest {
 
     }
 
-    @Nested
-    @DisplayName("is an ostrich")
     class NestedOstrich {
 
         @BeforeEach
@@ -103,14 +89,12 @@ public class NestedTest {
             animal = new Ostrich();
         }
 
-        @DisplayName("has claws")
         @Test
         void hasClaws() {
             // assert
             assertTrue(animal.hasClaws(), "The ostrich does have claws.");
         }
 
-        @DisplayName("makes right noise")
         @Test
         void makeNoise() {
             // assert
@@ -118,7 +102,6 @@ public class NestedTest {
             assertTrue(actual.contains("Gurr"), "should contain Gurr");
         }
 
-        @DisplayName("has australian origin")
         @Test
         void getOrigin() {
             // assert

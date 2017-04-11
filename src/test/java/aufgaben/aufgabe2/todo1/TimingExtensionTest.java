@@ -15,12 +15,10 @@ import org.junit.runner.RunWith;
  * Created by dariosagud on 07.04.2017.
  */
 @RunWith(JUnitPlatform.class)
-@ExtendWith(AllExtensions.class)
 public class TimingExtensionTest {
 
     @DisplayName("Test Fox")
     @Test
-    @ExtendWith(TimingExtension.class)
     void foxTest(TestInfo testInfo) {
         System.out.println("IN TEST 1");
         Assertions.assertTrue(testInfo.getDisplayName().toString().contains("Fox"));
@@ -28,7 +26,6 @@ public class TimingExtensionTest {
 
     @DisplayName("Test Lion")
     @Test
-    @ExtendWith(TimingExtension.class)
     void lionTest(TestInfo testInfo) {
         System.out.println("IN TEST 1");
         Assertions.assertTrue(testInfo.getTestClass().toString().contains("Timing"));

@@ -12,13 +12,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * Created by simonneidhart on 03.04.2017.
  */
 @RunWith(JUnitPlatform.class)
-@ExtendWith({MockitoExtension.class})
-class FoxTest implements RequiredSpaceContract {
+class FoxTest {
 
     Fox fox = new Fox();
 
-    @Override
-    public int getRequiredSpaceOfAnimal() {
-        return fox.getRequiredSpace();
-    }
 }

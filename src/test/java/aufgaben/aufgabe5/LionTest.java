@@ -10,13 +10,8 @@ import org.junit.runner.RunWith;
  * Created by simonneidhart on 03.04.2017.
  */
 @RunWith(JUnitPlatform.class)
-@ExtendWith({MockitoExtension.class})
-class LionTest implements RequiredSpaceContract {
+class LionTest {
 
     Lion lion = new Lion();
 
-    @Override
-    public int getRequiredSpaceOfAnimal() {
-        return lion.getRequiredSpace();
-    }
 }

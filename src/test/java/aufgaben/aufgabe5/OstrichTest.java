@@ -8,12 +8,8 @@ import org.junit.runner.RunWith;
  * Created by simonneidhart on 03.04.2017.
  */
 @RunWith(JUnitPlatform.class)
-class OstrichTest implements RequiredSpaceContract {
+class OstrichTest{
 
     Ostrich ostrich = new Ostrich();
 
-    @Override
-    public int getRequiredSpaceOfAnimal() {
-        return ostrich.getRequiredSpace();
-    }
 }

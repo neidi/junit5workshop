@@ -27,42 +27,6 @@ import org.junit.runner.RunWith;
  * Created by dariosagud on 06.04.2017.
  */
 @RunWith(JUnitPlatform.class)
-@ExtendWith(MockitoExtension.class)
 public class DynamicTests {
-
-    // test falsche Daten; der ganze Test wird trotzdem ausgeführt
-    @DisplayName("Dynamischer Test 1")
-    @TestFactory
-    Collection<DynamicTest> dynamicTestsFromCollection() { // funktioniert fast gleich wie assertAll()
-        System.out.println("Dynamischer Test 1 start");
-        // arrange
-        Locale africa = new Locale("EN", "Africa");
-        // act
-        Lion lion = new Lion();
-        // assert
-        List<DynamicTest> factory = Arrays.asList(
-                dynamicTest("erster dynamischer test", () -> assertEquals(africa, lion.getOrigin(), "wrong origin")),
-                dynamicTest("zweiter dynamischer test", () -> assertEquals("Buu!", lion.makeNoise(), "wrong noise")),
-                dynamicTest("dritter dynamischer test", () -> assertTrue(lion.hasClaws(), "claws should be false"))
-        );
-        System.out.println("Dynamischer Test 1 end");
-        return factory;
-    }
-
-    @DisplayName("Dynamischer Test 2")
-    @TestFactory
-    Stream<DynamicTest> dynamicTestsFromIntStream() {
-        System.out.println("Dynamischer Test 2 start");
-        // arrange
-        // act
-        Fox fox = new Fox();
-        // assert
-        Stream<DynamicTest> stream = Stream.of("ring", "ding", "d").map(
-                str -> dynamicTest("Username of SuperUser contains " + str,
-                        () -> assertTrue(fox.makeNoise().contains(str), "Noise should contain " + str))
-        );
-        System.out.println("Dynamischer Test 2 end");
-        return stream;
-    }
 
 }
