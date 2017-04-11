@@ -76,7 +76,8 @@ public class ParameterizedTests {
 
 class FibonacciTest {
     public static Iterable<Arguments> data() {
-        return Arrays.asList(ObjectArrayArguments.create(0, 0), ObjectArrayArguments.create(1, 1));
+        return Arrays.asList(ObjectArrayArguments.create(0, 0),
+                ObjectArrayArguments.create(1, 1));
     }
 
     @ParameterizedTest(name = "{index} ==> rib[{0}]={1}")

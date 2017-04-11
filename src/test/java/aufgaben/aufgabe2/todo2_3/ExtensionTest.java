@@ -1,13 +1,6 @@
-package ch.bbv.zoo.extension;
+package aufgaben.aufgabe2.todo2_3;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.DynamicTest.*;
-
-import extensions.AllExtensions;
-import extensions.MockitoExtension;
-import org.junit.Assert;
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.api.extension.*;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
 

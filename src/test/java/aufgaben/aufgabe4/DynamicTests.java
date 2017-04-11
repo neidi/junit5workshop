@@ -1,4 +1,4 @@
-package ch.bbv.zoo.dynamic;
+package aufgaben.aufgabe4;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
@@ -41,7 +41,7 @@ public class DynamicTests {
         Lion lion = new Lion();
         // assert
         List<DynamicTest> factory = Arrays.asList(
-                dynamicTest("erster dynamischer test", () -> assertEquals(africa,  lion.getOrigin(), "wrong origin")),
+                dynamicTest("erster dynamischer test", () -> assertEquals(africa, lion.getOrigin(), "wrong origin")),
                 dynamicTest("zweiter dynamischer test", () -> assertEquals("Buu!", lion.makeNoise(), "wrong noise")),
                 dynamicTest("dritter dynamischer test", () -> assertTrue(lion.hasClaws(), "claws should be false"))
         );

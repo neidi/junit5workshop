@@ -1,14 +1,12 @@
-package ch.bbv.zoo.nested;
+package aufgaben.aufgabe3;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.DynamicTest.*;
 
 import ch.bbv.zoo.Animal;
 import ch.bbv.zoo.Fox;
 import ch.bbv.zoo.Lion;
 import ch.bbv.zoo.Ostrich;
 import extensions.MockitoExtension;
-import extensions.TimingExtension;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.*;
 import org.junit.platform.runner.JUnitPlatform;
@@ -28,7 +26,7 @@ public class NestedTest {
 
     @Nested
     @DisplayName("is a fox")
-    class FoxTest {
+    class NestedFox {
 
         @BeforeEach
         void setUp() {
@@ -42,7 +40,7 @@ public class NestedTest {
             assertFalse(animal.hasClaws(), "The fox does not have claws.");
         }
 
-        @DisplayName("makes right noiset")
+        @DisplayName("makes right noise")
         @Test
         void makeNoise() {
             // assert
@@ -50,7 +48,7 @@ public class NestedTest {
             assertAll(
                     () -> assertTrue(actual.contains("ring"), "should contain ring"),
                     () -> assertTrue(actual.contains("ding"), "should contain ding"),
-                    () -> assertTrue(actual.contains("xxdingding"), "should contain dingding")
+                    () -> assertTrue(actual.contains("dingding"), "should contain dingding")
             );
         }
 
@@ -65,7 +63,7 @@ public class NestedTest {
 
     @Nested
     @DisplayName("is a lion")
-    class LionTest {
+    class NestedLion {
 
         @BeforeEach
         void setUp() {
@@ -97,8 +95,8 @@ public class NestedTest {
     }
 
     @Nested
-    @DisplayName("is a ostrich")
-    class OstrichTest {
+    @DisplayName("is an ostrich")
+    class NestedOstrich {
 
         @BeforeEach
         void setUp() {

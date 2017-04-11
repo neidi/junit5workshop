@@ -1,19 +1,15 @@
-package ch.bbv.zoo.extension;
+package aufgaben.aufgabe2.todo1;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import ch.bbv.zoo.Fox;
-import extensions.AllExtensions;
-import extensions.TimingExtension;
+import aufgaben.aufgabe2.todo2_3.AllExtensions;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
-
-import java.util.Locale;
 
 /**
  * Created by dariosagud on 07.04.2017.

@@ -1,4 +1,4 @@
-package ch.bbv.zoo.defaultmethods;
+package aufgaben.aufgabe5;
 
 import ch.bbv.zoo.Ostrich;
 import org.junit.platform.runner.JUnitPlatform;

@@ -1,5 +1,7 @@
-package ch.bbv.zoo.Assert;
+package aufgaben.aufgabe1;
 
+import ch.bbv.zoo.Assert.Machine;
+import ch.bbv.zoo.Assert.MachineImpl;
 import ch.bbv.zoo.Assert.utility.OverheatException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Assumptions;

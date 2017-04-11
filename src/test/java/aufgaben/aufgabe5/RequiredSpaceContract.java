@@ -1,4 +1,4 @@
-package ch.bbv.zoo.defaultmethods;
+package aufgaben.aufgabe5;
 
 import org.junit.jupiter.api.Test;
 
