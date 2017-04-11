@@ -20,7 +20,7 @@ public class Ostrich implements Animal {
     public Locale getOrigin() { return new Locale("EN", "Australia"); }
 
     @Override
-    public int getPersonalSpace() {
+    public int getRequiredSpace() {
         return 100;
     }
 

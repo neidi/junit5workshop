@@ -20,7 +20,7 @@ public class Fox implements Animal {
     }
 
     @Override
-    public int getPersonalSpace() {
+    public int getRequiredSpace() {
         return 65;
     }
 

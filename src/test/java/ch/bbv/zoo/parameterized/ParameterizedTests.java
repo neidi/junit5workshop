@@ -5,8 +5,6 @@ import ch.bbv.zoo.Animal;
 import ch.bbv.zoo.Fox;
 import ch.bbv.zoo.Lion;
 import ch.bbv.zoo.Ostrich;
-import extensions.MockitoExtension;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -14,7 +12,6 @@ import org.junit.jupiter.params.provider.ObjectArrayArguments;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -65,7 +62,7 @@ public class ParameterizedTests {
         assertAll(
                 () -> assertEquals(hasClaws, animal.hasClaws()),
                 () -> assertEquals(noise, animal.makeNoise()),
-                () -> assertEquals(area, animal.getPersonalSpace()));
+                () -> assertEquals(area, animal.getRequiredSpace()));
     }
 
     static List<Arguments> animalTestProvider() {

@@ -9,5 +9,5 @@ public interface Animal {
     boolean hasClaws();
     String makeNoise();
     Locale getOrigin();
-    int getPersonalSpace();
+    int getRequiredSpace();
 }

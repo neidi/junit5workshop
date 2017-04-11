@@ -20,7 +20,7 @@ public class Lion implements Animal {
     public Locale getOrigin() { return new Locale("EN", "Africa"); }
 
     @Override
-    public int getPersonalSpace() {
+    public int getRequiredSpace() {
         return 120;
     }
 
