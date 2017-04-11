@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.DynamicTest.*;
 
 import extensions.AllExtensions;
 import extensions.MockitoExtension;
+import org.junit.Assert;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.*;
 import org.junit.platform.runner.JUnitPlatform;
@@ -50,5 +51,4 @@ public class ExtensionTest {
         System.out.println("IN TEST 2");
         Assertions.assertTrue(testInfo.getTestClass().toString().contains("Extension"), "The class name should contain 'Extension'");
     }
-
 }

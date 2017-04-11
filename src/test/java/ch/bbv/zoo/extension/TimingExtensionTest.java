@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assumptions.assumingThat;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import ch.bbv.zoo.Fox;
+import extensions.AllExtensions;
 import extensions.TimingExtension;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -18,6 +19,7 @@ import java.util.Locale;
  * Created by dariosagud on 07.04.2017.
  */
 @RunWith(JUnitPlatform.class)
+@ExtendWith(AllExtensions.class)
 public class TimingExtensionTest {
 
     @DisplayName("Test Fox")

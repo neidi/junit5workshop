@@ -1,5 +1,7 @@
 package ch.bbv.zoo;
 
+import ch.bbv.zoo.Assert.utility.OverheatException;
+
 import java.util.Locale;
 
 /**
